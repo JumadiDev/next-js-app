@@ -1,11 +1,17 @@
 // components/Header.js
+import Link from "next/link";
+import Navbar from "./Navbar";
+
 const Header = () => {
     return (
     
-        <div className="container mx-auto text-center">
-          <h1 className="text-lg font-medium">Bienbenido a mi Web</h1> 
-        </div>
-       
+      <header >
+      <div >
+      <Navbar/>
+        <h1 ><Link href="../pages/about.js">Web App</Link></h1>
+     
+      </div>
+    </header>
     );
   };
   
