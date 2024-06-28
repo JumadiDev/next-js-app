@@ -1,3 +1,4 @@
-# Creación de una app usando el Framework [Nextjs] .....
+ Creación de una app usando el Framework [Nextjs]
+
 
 
