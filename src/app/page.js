@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default function Home({ Component, pageProps }) {
@@ -19,7 +18,6 @@ export default function Home({ Component, pageProps }) {
         width={360}
         height={90}
         priority />
-
     </div>
   );
 }
