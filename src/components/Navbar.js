@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-950/80">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
+      <div className="flex h-16 w-full items-center justify-between px-4 sm:px-8">
         <Link href="/" className="group flex shrink-0 items-center gap-2">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-slate-900 to-slate-600 text-sm font-bold text-white transition-transform group-hover:scale-105 dark:from-slate-100 dark:to-slate-400 dark:text-slate-900">
             J
